@@ -45,6 +45,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Handaxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Neolithic</techLevel>
 		<statBases>
@@ -118,6 +119,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Pickaxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Neolithic</techLevel>
 		<statBases>
@@ -188,6 +190,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Hammer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Neolithic</techLevel>
 		<statBases>
@@ -258,6 +261,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Sickle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Neolithic</techLevel>
 		<statBases>
@@ -329,6 +333,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Broom</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
@@ -402,6 +407,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Hoe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
@@ -469,6 +475,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Multitool</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Spacer</techLevel>
 		<statBases>
@@ -526,6 +533,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Paxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
