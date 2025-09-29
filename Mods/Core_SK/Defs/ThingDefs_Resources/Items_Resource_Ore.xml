@@ -7,7 +7,6 @@
 		<graphicData>
 			<texPath>Things/Item/Ores/Silver</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(180,173,150)</color>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
 		<soundInteract>Silver_Drop</soundInteract>
