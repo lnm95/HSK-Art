@@ -21,8 +21,8 @@
 		<label>silver tile</label>
 		<renderPrecedence>241</renderPrecedence>
 		<description>Expensive and slow to build. Soft grey tiles with a grey bordering.</description>
-		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
-		<color>(0.71, 0.68, 0.59)</color>
+		<texturePath>Terrain/Surfaces/GenericMetalTile</texturePath>
+		<color>(0.86, 0.84, 0.78)</color>
 		<statBases>
 			<Beauty>8</Beauty>
 			<Cleanliness>0.4</Cleanliness>
@@ -45,9 +45,8 @@
 		<label>sterile tile</label>
 		<renderPrecedence>243</renderPrecedence>
 		<description>Sterile tiles are clean, light grey squares. Very useful in hospitals to help prevent infections. Quite slow to build.</description>
-		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+		<texturePath>Terrain/Surfaces/SterileTile</texturePath>
 		<pollutionTintColor>(0.95, 0.95, 0.93, 1)</pollutionTintColor>
-		<color>(0.71, 0.71, 0.71)</color>
 		<statBases>
 			<Beauty>1</Beauty>
 			<Cleanliness>0.6</Cleanliness>
@@ -55,6 +54,7 @@
 			<CleaningTimeFactor>0.6</CleaningTimeFactor>
 		</statBases>
 		<costList>
+			<ComponentIndustrial>1</ComponentIndustrial>
 			<Ceramics>1</Ceramics>
 			<SilverBar>5</SilverBar>
 		</costList>
@@ -68,7 +68,7 @@
 		<label>white tin tile</label>
 		<renderPrecedence>240</renderPrecedence>
 		<description>White tin square tiles.</description>
-		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+		<texturePath>Terrain/Surfaces/GenericMetalTile</texturePath>
 		<color>(0.86, 0.86, 0.86)</color>
 		<statBases>
 			<WorkToBuild>1020</WorkToBuild>
@@ -87,7 +87,7 @@
 		<label>simple copper tile</label>
 		<renderPrecedence>240</renderPrecedence>
 		<description>Simple copper square tiles.</description>
-		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+		<texturePath>Terrain/Surfaces/GenericMetalTile</texturePath>
 		<color>(0.62, 0.45, 0.17)</color>
 		<statBases>
 			<WorkToBuild>1020</WorkToBuild>
@@ -106,7 +106,7 @@
 		<label>grey metal tile</label>
 		<renderPrecedence>240</renderPrecedence>
 		<description>Grey metal square tiles, for that spaceship look.</description>
-		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+		<texturePath>Terrain/Surfaces/GenericMetalTile</texturePath>
 		<color>(0.54, 0.52, 0.53)</color>
 		<statBases>
 			<Beauty>4</Beauty>
@@ -177,7 +177,7 @@
 		<label>simple aluminium tile</label>
 		<renderPrecedence>240</renderPrecedence>
 		<description>Simple aluminium square tiles.</description>
-		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+		<texturePath>Terrain/Surfaces/GenericMetalTile</texturePath>
 		<color>(190,205,190)</color>
 		<statBases>
 			<WorkToBuild>816</WorkToBuild>
@@ -202,7 +202,7 @@
 		<label>simple melchior tile</label>
 		<renderPrecedence>240</renderPrecedence>
 		<description>Simple melchior square tiles.</description>
-		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+		<texturePath>Terrain/Surfaces/GenericMetalTile</texturePath>
 		<color>(168,157,125)</color>
 		<statBases>
 			<WorkToBuild>2040</WorkToBuild>
@@ -226,7 +226,7 @@
 		<label>simple stein tile</label>
 		<renderPrecedence>240</renderPrecedence>
 		<description>Simple stein square tiles.</description>
-		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+		<texturePath>Terrain/Surfaces/GenericMetalTile</texturePath>
 		<color>(130,157,141)</color>
 		<statBases>
 			<WorkToBuild>3060</WorkToBuild>
@@ -250,7 +250,7 @@
 		<label>simple titanium tile</label>
 		<renderPrecedence>240</renderPrecedence>
 		<description>Simple titanium square tiles.</description>
-		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+		<texturePath>Terrain/Surfaces/BetaPolyTile</texturePath>
 		<color>(160,178,181)</color>
 		<statBases>
 			<WorkToBuild>4080</WorkToBuild>
@@ -274,7 +274,7 @@
 		<label>simple beta poly tile</label>
 		<renderPrecedence>240</renderPrecedence>
 		<description>Simple beta poly square tiles.</description>
-		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+		<texturePath>Terrain/Surfaces/BetaPolyTile</texturePath>
 		<color>(100,60,60)</color>
 		<statBases>
 			<WorkToBuild>5090</WorkToBuild>

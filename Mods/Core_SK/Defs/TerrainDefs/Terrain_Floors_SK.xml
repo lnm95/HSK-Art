@@ -105,11 +105,11 @@
 		<statBases>
 			<WorkToBuild>400</WorkToBuild>
 			<Beauty>3</Beauty>
-			<Cleanliness>0.4</Cleanliness>
+			<Cleanliness>0.45</Cleanliness>
 		</statBases>
 		<costList>
 			<ConcreteResource>1</ConcreteResource>
-			<Ceramics>2</Ceramics>
+			<Ceramics>4</Ceramics>
 		</costList>
 		<researchPrerequisites>
 			<li>Ceramic_floor_C1</li>

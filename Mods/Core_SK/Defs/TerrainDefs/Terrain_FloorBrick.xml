@@ -7,12 +7,12 @@
 		<description>Bricks laid in an interlocking pattern.</description>
 		<texturePath>Terrain/Surfaces/BrickFloor</texturePath>
 		<statBases>
-			<WorkToBuild>600</WorkToBuild>
+			<WorkToBuild>500</WorkToBuild>
 			<Beauty>2</Beauty>
-			<CleaningTimeFactor>1</CleaningTimeFactor>
+			<CleaningTimeFactor>0.8</CleaningTimeFactor>
 		</statBases>
 		<researchPrerequisites><li>Stone_floor_B2</li></researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef Abstract="True" ParentName="SK_TileStoneBase" Name="SmallBrickBase">
@@ -20,11 +20,12 @@
 		<description>Smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.</description>
 		<texturePath>Terrain/Surfaces/SmallBricks</texturePath>
 		<statBases>
-			<WorkToBuild>600</WorkToBuild>
+			<WorkToBuild>700</WorkToBuild>
 			<Beauty>2</Beauty>
+			<CleaningTimeFactor>0.9</CleaningTimeFactor>
 		</statBases>
 		<researchPrerequisites><li>Stone_floor_B2</li></researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef Abstract="True" ParentName="SK_TileStoneBase" Name="MedBrickBase">
@@ -32,11 +33,12 @@
 		<description>Bricks laid in a circular interlocking pattern.</description>
 		<texturePath>Terrain/Surfaces/MedStone</texturePath>
 		<statBases>
-			<WorkToBuild>600</WorkToBuild>
+			<WorkToBuild>700</WorkToBuild>
 			<Beauty>3</Beauty>
+			<CleaningTimeFactor>0.85</CleaningTimeFactor>
 		</statBases>
 		<researchPrerequisites><li>Stone_floor_B3</li></researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef Abstract="True" ParentName="SK_TileStoneBase" Name="CobblestoneBase">
@@ -47,6 +49,7 @@
 		<statBases>
 			<WorkToBuild>800</WorkToBuild>
 			<Beauty>1</Beauty>
+			<CleaningTimeFactor>1.2</CleaningTimeFactor>
 		</statBases>
 		<designationCategory>NaturalFloors</designationCategory>
 		<researchPrerequisites><li>Stone_floor_B1</li></researchPrerequisites>
@@ -59,10 +62,11 @@
 		<pathCost>1</pathCost>
 		<statBases>
 			<WorkToBuild>600</WorkToBuild>
-			<Beauty>2</Beauty>
+			<Beauty>1</Beauty>
+			<CleaningTimeFactor>1.5</CleaningTimeFactor>
 		</statBases>
 		<researchPrerequisites><li>Stone_floor_B2</li></researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef Abstract="True" ParentName="SK_TileStoneBase" Name="StoneTileBase">
@@ -70,7 +74,7 @@
 		<description>Smoothed and polished stone tiles. Time-consuming to make, but easy to keep clean.</description>
 		<texturePath>Terrain/Surfaces/TileFloor</texturePath>
 		<statBases>
-			<WorkToBuild>600</WorkToBuild>
+			<WorkToBuild>900</WorkToBuild>
 			<Beauty>2</Beauty>
 			<Cleanliness>0.2</Cleanliness>
 		</statBases>
@@ -83,11 +87,11 @@
 		<description>Bricks laid in an interlocking pattern.</description>
 		<texturePath>Terrain/Surfaces/BrickHerringbone</texturePath>
 		<statBases>
-			<WorkToBuild>500</WorkToBuild>
-			<Beauty>3</Beauty>
+			<WorkToBuild>600</WorkToBuild>
+			<Beauty>2</Beauty>
 		</statBases>
 		<researchPrerequisites><li>Stone_floor_B3</li></researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="MediumBrickBase">
@@ -211,7 +215,7 @@
 		<label>sandstone Mediterranean bricks</label>
 		<color>(126,104,94)</color>
 		<costList>
-			<BlocksSandstone>4</BlocksSandstone>
+			<BlocksSandstone>5</BlocksSandstone>
 		</costList>
 	</TerrainDef>
 	<TerrainDef ParentName="MedBrickBase">
@@ -219,7 +223,7 @@
 		<label>granite Mediterranean bricks</label>
 		<color>(105,95,97)</color>
 		<costList>
-			<BlocksGranite>4</BlocksGranite>
+			<BlocksGranite>5</BlocksGranite>
 		</costList>
 	</TerrainDef>
 	<TerrainDef ParentName="MedBrickBase">
@@ -227,7 +231,7 @@
 		<label>limestone Mediterranean bricks</label>
 		<color>(158,153,135)</color>
 		<costList>
-			<BlocksLimestone>4</BlocksLimestone>
+			<BlocksLimestone>5</BlocksLimestone>
 		</costList>
 	</TerrainDef>
 	<TerrainDef ParentName="MedBrickBase">
@@ -235,7 +239,7 @@
 		<label>slate Mediterranean bricks</label>
 		<color>(70,70,70)</color>
 		<costList>
-			<BlocksSlate>4</BlocksSlate>
+			<BlocksSlate>5</BlocksSlate>
 		</costList>
 	</TerrainDef>
 	<TerrainDef ParentName="MedBrickBase">
@@ -243,7 +247,7 @@
 		<label>marble Mediterranean bricks</label>
 		<color>(132,135,132)</color>
 		<costList>
-			<BlocksMarble>4</BlocksMarble>
+			<BlocksMarble>5</BlocksMarble>
 		</costList>
 	</TerrainDef>
 	<TerrainDef ParentName="MedBrickBase">
@@ -251,15 +255,18 @@
 		<label>clay Mediterranean bricks</label>
 		<color>(153,87,61)</color>
 		<costList>
-			<ClayBrick>4</ClayBrick>
+			<ClayBrick>5</ClayBrick>
 		</costList>
 	</TerrainDef>
 	<TerrainDef ParentName="MedBrickBase">
 		<defName>MedBrickCeramics</defName>
 		<label>Ceramic Mediterranean bricks</label>
 		<color>(255,255,255)</color>
+		<statBases>
+			<Cleanliness>0.1</Cleanliness>
+		</statBases>
 		<costList>
-			<Ceramics>4</Ceramics>
+			<Ceramics>5</Ceramics>
 		</costList>
 	</TerrainDef>
 
@@ -369,6 +376,9 @@
 		<defName>EXF_TileSandstone</defName>
 		<label>sandstone tiles</label>
 		<color>(126,104,94)</color>
+		<statBases>
+			<Cleanliness>0.1</Cleanliness>
+		</statBases>
 		<costList>
 			<BlocksSandstone>4</BlocksSandstone>
 		</costList>
@@ -409,6 +419,9 @@
 		<defName>EXF_TileCeramics</defName>
 		<label>Ceramic tiles</label>
 		<color>(255,255,255)</color>
+		<statBases>
+			<Cleanliness>0.3</Cleanliness>
+		</statBases>
 		<costList>
 			<Ceramics>4</Ceramics>
 		</costList>
