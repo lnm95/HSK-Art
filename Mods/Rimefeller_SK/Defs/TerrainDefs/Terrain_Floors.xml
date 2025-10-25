@@ -8,6 +8,8 @@
     <statBases>
       <WorkToBuild>350</WorkToBuild>
       <Beauty>2</Beauty>
+	  <CleaningTimeFactor>0.6</CleaningTimeFactor>
+	  <FilthMultiplier>0.8</FilthMultiplier>
       <Flammability>0.12</Flammability>
     </statBases>
     <costList>
