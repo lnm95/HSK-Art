@@ -12,7 +12,7 @@
 			<CleaningTimeFactor>0.8</CleaningTimeFactor>
 		</statBases>
 		<researchPrerequisites><li>Stone_floor_B2</li></researchPrerequisites>
-		<designationCategory>NaturalFloors</designationCategory>
+		<designationCategory>OutsideFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef Abstract="True" ParentName="SK_TileStoneBase" Name="SmallBrickBase">
@@ -25,7 +25,7 @@
 			<CleaningTimeFactor>0.9</CleaningTimeFactor>
 		</statBases>
 		<researchPrerequisites><li>Stone_floor_B2</li></researchPrerequisites>
-		<designationCategory>NaturalFloors</designationCategory>
+		<designationCategory>OutsideFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef Abstract="True" ParentName="SK_TileStoneBase" Name="MedBrickBase">
@@ -38,7 +38,7 @@
 			<CleaningTimeFactor>0.85</CleaningTimeFactor>
 		</statBases>
 		<researchPrerequisites><li>Stone_floor_B3</li></researchPrerequisites>
-		<designationCategory>NaturalFloors</designationCategory>
+		<designationCategory>OutsideFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef Abstract="True" ParentName="SK_TileStoneBase" Name="CobblestoneBase">
@@ -66,7 +66,7 @@
 			<CleaningTimeFactor>1.5</CleaningTimeFactor>
 		</statBases>
 		<researchPrerequisites><li>Stone_floor_B2</li></researchPrerequisites>
-		<designationCategory>NaturalFloors</designationCategory>
+		<designationCategory>OutsideFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef Abstract="True" ParentName="SK_TileStoneBase" Name="StoneTileBase">
@@ -91,7 +91,7 @@
 			<Beauty>2</Beauty>
 		</statBases>
 		<researchPrerequisites><li>Stone_floor_B3</li></researchPrerequisites>
-		<designationCategory>NaturalFloors</designationCategory>
+		<designationCategory>OutsideFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="MediumBrickBase">
