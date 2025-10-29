@@ -277,14 +277,11 @@
 		<texturePath>Terrain/Surfaces/redwood_floor_a</texturePath>
 		<uiIconPath>Terrain/Surfaces/redwood_floor_ai</uiIconPath>
 		<statBases>
-			<Beauty>3</Beauty>
+			<Beauty>2</Beauty>
 		</statBases>
 		<costList>
-			<RedWoodPlank>3</RedWoodPlank>
+			<RedWoodLog>4</RedWoodLog>
 		</costList>
-		<researchPrerequisites>
-			<li>Wooden_floor_A2</li>
-		</researchPrerequisites>
 	</TerrainDef>
 
 	<TerrainDef ParentName="WoodSK_FloorBase">

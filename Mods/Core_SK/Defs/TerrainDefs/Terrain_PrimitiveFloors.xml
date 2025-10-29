@@ -25,6 +25,10 @@
 		<description>A nice bamboo tiki floor.</description>
 		<texturePath>Terrain/Surfaces/TikiFloorBamboo</texturePath>
 		<uiIconPath>Terrain/Surfaces/TikiFloorBambooIco</uiIconPath>
+		<statBases>
+			<Beauty>2</Beauty>
+			<CleaningTimeFactor>1.42</CleaningTimeFactor>
+		</statBases>
 		<costList>
 			<Bamboo>4</Bamboo>
 		</costList>
