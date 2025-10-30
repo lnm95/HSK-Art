@@ -1998,16 +1998,16 @@
 		<label>ground-penetrating scanner</label>
 		<description>A sensor unit used by researchers to search for buried resources. The chance to find a resource depends on the operator's research ability. It consumes a lot of electricity. If you find a buried resource, you'll need to use deep drills to extract it. It doesn't work under a roof.</description>
 		<graphicData>
-			<texPath>Things/Building/Misc/GroundPenetratingScanner</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2.65</drawSize>
-			<drawRotated>false</drawRotated>
-			<drawOffset>(0,0,-0.05)</drawOffset>
+			<texPath>Things/Building/Misc/GroundPenetratingScanner/GroundPenetratingScanner</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(6, 6)</drawSize>
 			<shadowData>
 				<volume>(1.6875, 0.375, 2.125)</volume>
 				<offset>(0,0,-0.12)</offset>
 			</shadowData>
 		</graphicData>
+		<uiIconPath>Things/Building/Misc/GroundPenetratingScanner/GroundPenetratingScannerIcon</uiIconPath>
 		<stuffCategories>
 			<li>RuggedMetallic</li>
 		</stuffCategories>
@@ -2049,9 +2049,9 @@
 		</statBases>
 		<tickerType>Rare</tickerType>
 		<hasInteractionCell>true</hasInteractionCell>
-		<interactionCellOffset>(0,0,2)</interactionCellOffset>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<interactionCellIcon>DiningChair</interactionCellIcon>
-		<interactionCellIconReverse>true</interactionCellIconReverse>
+		<interactionCellIconReverse>false</interactionCellIconReverse>
 		<fillPercent>0.40</fillPercent>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<pathCost>25</pathCost>
@@ -2063,7 +2063,7 @@
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
-		<defaultPlacingRot>South</defaultPlacingRot>
+		<defaultPlacingRot>North</defaultPlacingRot>
 		<researchPrerequisites>
 			<li>Mining_C1</li>
 		</researchPrerequisites>
