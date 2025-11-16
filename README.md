@@ -3,7 +3,7 @@
 [![Logo](https://i.imgur.com/WP7w2sM.png)](https://github.com/skyarkhangel/Hardcore-SK)
 <!-- you cant center markdown images -->
 
-**Discord:** <https://discord.gg/FMPRSKr> **(Validated Account Required)**
+**Discord:** <https://discord.gg/vTJ6fnAeyA> **(Validated Account Required)**
 
 First, I would like to thank the artists and developers of all the mods used in Hardcore SK.
 
@@ -43,7 +43,7 @@ For Windows users:
 
 ### Manual installation
 
-[Master:](https://github.com/skyarkhangel/Hardcore-SK/tree/master) - The stable version/branch of the project usually a version behind the latest Rimworld. Currently for version 1.4.
+[Master:](https://github.com/skyarkhangel/Hardcore-SK/tree/master) - The stable version/branch of the project usually a version behind the latest Rimworld. Currently for version 1.5.
 
 [Development:](https://github.com/skyarkhangel/Hardcore-SK/tree/development) - The work-in-progress version which contains the latest content for the latest version of rimworld, but is more likely to contain bugs. Already for latest version 1.5.
 
